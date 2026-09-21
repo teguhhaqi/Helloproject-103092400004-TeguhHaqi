@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Profil - Teguh Haqqi Sobri</title>
+  <style>
+    <link rel="stylesheet" href="style.css">
+</head>
+    :root {
+      --bg: #f7fbff;
+      --card: #ffffff;
+      --accent: #2563eb;
+      --muted: #555;
+      --radius: 12px;
+    }
+    body {
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      margin: 0;
+      padding: 32px;
+      background: linear-gradient(180deg, var(--bg), #eef6ff);
+      color: #111827;
+      display: flex;
+      justify-content: center;
+    }
+    .container {
+      width: min(900px, 96%);
+      background: var(--card);
+      border-radius: var(--radius);
+      padding: 28px;
+      box-shadow: 0 8px 30px rgba(17,24,39,0.08);
+      border: 1px solid rgba(16,24,40,0.04);
+    }
+    header { text-align: center; margin-bottom: 18px; }
+    h1 {
+      margin: 0;
+      font-size: 1.6rem;
+      color: #0f172a;
+    }
+    p {
+      color: var(--muted);
+      line-height: 1.65;
+      margin-top: 12px;
+      margin-bottom: 20px;
+    }
+    .profile-row {
+      display: flex;
+      gap: 20px;
+      align-items: flex-start;
+      flex-wrap: wrap;
+    }
+    .photo {
+      min-width: 220px;
+      max-width: 260px;
+      border-radius: 10px;
+      overflow: hidden;
+      border: 1px solid rgba(0,0,0,0.06);
+      background: #f3f4f6;
+      text-align: center;
+      padding: 6px;
+    }
+    .photo img {
+      display:block;
+      width:100%;
+      height:auto;
+      border-radius: 8px;
+    }
+    .info { flex: 1 1 380px; }
+    .links a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .links a:hover { text-decoration: underline; }
+    .caption { font-size: 0.9rem; color: #475569; margin-top:8px; }
+    footer { text-align:center; margin-top:18px; font-size:0.85rem; color:#6b7280; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Teguh Haqqi Sobri</h1>
+    </header>
+
+      <div class="info">
+        <p>
+          Hallo Perkenalkan nama saya Teguh Haqqi Sobri saya berasal dari NTB Lombok 
+          saya sekarang sedang berkuliah di Telkom University saya mengambil Jurusan Teknologi Informasi. 
+          Saya mempunyai Visi Misi <em>Bertanggung jawab Atas Masalah Hidup.
+        </p>
+
+        <div class="links">
+          <strong>Instagram:</strong>
+          <div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      Halaman profil singkat — buat lebih lengkap dengan menambahkan foto asli dan info kontak.
+    </footer>
+  </div>
+</body>
+</html>
